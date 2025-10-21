@@ -41,7 +41,7 @@ body {
 .icone {
   width: 180px;
   height: 180px;
-  background: url('https://github.com/antoinettekeat/AgroNova/blob/main/event.svg') no-repeat center;
+  background: url('https://github.com/antoinettekeat/AgroNova/blob/main/event.png') no-repeat center;
   background-size: contain;
   margin: 20px 0;
   filter: brightness(0);
@@ -70,6 +70,7 @@ button {
 button:hover {
   background: #005d55;
 }
+
 
 
 
