@@ -1,0 +1,72 @@
+body {
+  background: radial-gradient(circle at center, #0f2a36, #08181e);
+  font-family: 'Courier New', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: white;
+}
+
+.carte {
+  width: 320px;
+  height: 440px;
+  background: linear-gradient(180deg, #00c8b3, #007f75);
+  border-radius: 25px;
+  border: solid 4px #00e0d5;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+  text-align: center;
+  color: #000;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.carte:hover {
+  transform: scale(1.03);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+.carte h1 {
+  font-size: 1.6em;
+  letter-spacing: 3px;
+  margin: 0;
+  text-shadow: 0 2px 3px rgba(0,0,0,0.3);
+}
+
+.icone {
+  width: 180px;
+  height: 180px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/3/36/Emoji_u1f389.svg') no-repeat center;
+  background-size: contain;
+  margin: 20px 0;
+  filter: brightness(0);
+}
+
+.texte {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #000;
+  min-height: 60px;
+}
+
+button {
+  background: #003f3b;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 25px;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #005d55;
+}
