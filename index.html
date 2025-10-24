@@ -16,18 +16,43 @@
   </div>
 
   <script>
-    const evenements = [
-      "Tempête ionique : toutes les zones d’énergie produisent -1 énergie.",
-      "Pluie acide : les parcelles fertiles ne produisent pas de biomasse.",
-      "Coup de chaleur solaire : toutes les oasis perdent 1 ressource en eau.",
-      "Récolte miraculeuse : les plaines fertiles produisent +1 biomasse.",
-      "Sécheresse extrême : toutes les productions liées à l’eau sont annulées.",
-      "Surtension énergétique : toutes les zones d’énergie produisent +2.",
-      "Cyber-piratage : tous les joueurs perdent 1 énergie.",
-      "Réveil des anciens systèmes : les ruines technologiques produisent +1 donnée.",
-      "Festival intercolonial : tous les joueurs gagnent 1 ressource au choix.",
-      "Crise de l’eau : chaque joueur défausse 1 eau ou subit -1 production."
-    ];
+const evenements = [
+  "Tempête ionique : toutes les zones d’énergie produisent -1 énergie.",
+  "Pluie acide : les parcelles fertiles ne produisent pas de biomasse.",
+  "Coup de chaleur solaire : toutes les oasis perdent 1 ressource en eau.",
+  "Récolte miraculeuse : les plaines fertiles produisent +1 biomasse.",
+  "Sécheresse extrême : toutes les productions liées à l’eau sont annulées.",
+  "Surtension énergétique : toutes les zones d’énergie produisent +2.",
+  "Cyber-piratage : tous les joueurs perdent 1 énergie.",
+  "Réveil des anciens systèmes : les ruines technologiques produisent +1 donnée.",
+  "Festival intercolonial : tous les joueurs gagnent 1 ressource au choix.",
+  "Crise de l’eau : chaque joueur défausse 1 eau ou subit -1 production.",
+  "Mini-tempête ionique : Tous les générateurs perdent 1 point d’énergie.",
+  "Effondrement de marché : Tous les achats coûtent 1 ressource en moins ce tour.",
+  "Mutation bio-synthétique : Les plaines produisent +1, les dômes urbains -1.",
+  "Tempête magnétique : Les zones énergétiques ne produisent rien.",
+  "Nuit électromagnétique : Aucune production d’énergie n’a lieu ce tour. (Module et tuiles)",
+  "Incident radioactif : Toutes les zones technologiques sont désactivées ce tour.",
+  "Panne de dôme : Tous les dômes urbains perdent leur effet de protection ce tour.",
+  "Bouclier défectueux : toutes les protections ne sont plus valables ce tour.",
+  "Miracle d’hybridation : Toutes les plaines fertiles produisent le double ce tour.",
+  "Coupure de réseau : Aucun module ne peut être acheté.",
+  "Repos du sol : Tous les joueurs perdent 1 biomasse par plaine fertile.",
+  "Vague de pollens nanotech : Les terrains agricoles proches d’une oasis gagnent +1 production.",
+  "Sabotage biocodé : Tous les joueurs perdent leur dernière ressource gagnée.",
+  "Aurore ionique : Tous les joueurs gagnent +1 énergie bonus.",
+  "Invasion de drones sauvages : Chaque joueur détruit une ressource.",
+  "Pluie de données : Tous les joueurs recoivent +2 données.",
+  "Éveil des IA agricoles : Tous les joueurs gagnent +1 ressource par zone énergétique.",
+  "Colonie d’algues intelligentes : Toutes les oasis produisent +1 ce tour.",
+  "Reflux ionique : Tous les joueurs perdent 1 point d’énergie, sauf celui ayant le moins de ressources, qui ne perd rien.",
+  "Brèche atmosphérique : Tous les dômes urbains subissent -1 production.",
+  "Cristallisation du sol : Toutes les plaines fertiles produisent -1 ce tour.",
+  "Courant ascendant : Tous les joueurs gagnent 1 ressource rare.",
+  "Reconnexion globale : Tous les effets négatifs en cours sont immédiatement annulés.",
+  "Résonance solaire : Toutes les zones énergétiques produisent +2 ce tour.",
+  "Pluie de renaissance : Tous les terrains affectés négativement retrouvent leur production normale."
+];
 
     function nouvelEvenement() {
       const random = evenements[Math.floor(Math.random() * evenements.length)];
@@ -40,3 +65,4 @@
 
 </body>
 </html>
+
